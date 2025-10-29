@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*-------------------------------------------------
+layout respond Style
+-------------------------------------------------*/
+
+@media (min-width: 1150px) {
+    #wrap.scroll-up #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, .15);
+        transition: all .3s;
+        z-index: 99;
+    }
+
+    #wrap.scroll-up #body {
+        margin-top: 17.8rem;
+    }
+    .navi-all-mob{display: none !important;}
+    #side-tools {top: 50%;transform: translateY(-50%);}
+}
+@media (max-width: 1149px) {
+    #header{margin-bottom:1rem; }
+    .navi-all-mob{display: block !important;}
+    #gov-top .toggle-head{font-size: 1.4rem;}
+    .remaining-util{display: none;}
+    .header-bot{padding-bottom:2rem;}
+    .header-bot>.inner>.display-justify {justify-content: space-between;}
+    .header-gnb{display: none;}
+}
+
+@media (max-width: 1800px){
+    #chatbot-area,
+    #youth-voice-area{padding:1rem 0.6rem; font-size: 1.4rem;}
+    #chatbot-area .desc .icon,
+    #youth-voice-area .desc .icon{width: 65%;}
+}
+@media (max-width: 1650px) {
+    html {
+        min-width: 360px;
+    }
+
+}
+@media (max-width: 1480px) {
+    .header-gnb{margin-right: 0;}
+    #side-tools .btn-top {
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 1300px) {
+    #gnb .depth2{max-width: 100%;}
+
+    .f-cont{flex-direction: column; gap: 20px;}
+    .f-copy{text-align: left;}
+}
+
+
+@media (max-width: 768px) {
+    .f-cont{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+    #body{margin-bottom: var(--spacer10); }
+}

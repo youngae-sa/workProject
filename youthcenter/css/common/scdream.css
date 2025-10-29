@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamThin.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamThin.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamExtraLight.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamExtraLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamLight.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamRegular.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamRegular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamMedium.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamBold.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamExtraBold.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamDreamHeavy.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamDreamHeavy.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../font/SCoreDream/SCoreDreamDreamBlack.woff2') format('woff2');
+    src: url('../font/SCoreDream/SCoreDreamDreamBlack.ttf') format("truetype");
+    font-display: swap;
+}
