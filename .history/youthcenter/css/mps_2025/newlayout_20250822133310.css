@@ -32,8 +32,6 @@ Layout Style Sheet / Version : 1.0 / myeong-hee park
 }
 
 #gov-top .toggle-head {
-    width: 158rem;
-    max-width: 95%;
     position: relative;
     display: flex;
     align-items: center;
